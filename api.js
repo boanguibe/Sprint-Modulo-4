@@ -23,12 +23,13 @@ function showError(msg){
 
         pokemonContainer.innerHTML = 
         `
-            
-            <img src="${imgPokemon}/${data.id}.svg">
-            <h2>${data.name.toUpperCase()}</h2>
+            <div class="card m-auto" align-items="center" justify-content="center" display="flex" style="width: 20rem">
+            <img class="mb-3 p-2"src="${imgPokemon}/${data.id}.svg">
+            <h2 class="p-3">${data.name.toUpperCase()}</h2>
             <p>Id: ${data.id}</p>
             <p>Altura: ${data.height/10} m</p>
             <p>Peso: ${data.weight/10} Kg</p>
+            </div>
         
         `;
 
