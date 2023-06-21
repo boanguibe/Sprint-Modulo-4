@@ -94,3 +94,8 @@ nav {
   font-size: 1.25em;
   font-weight: bold;
 }
+
+.yellow {
+  color: yellow;
+  -webkit-text-stroke: 2px black;
+}
